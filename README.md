@@ -1,6 +1,6 @@
 # Advent of Code 2021 Solutions
 
-These are my [advent of code](adventofcode.com) 2021 solutions written in
+These are my [advent of code](https://adventofcode.com) 2021 solutions written in
 GDScript.
 
 
