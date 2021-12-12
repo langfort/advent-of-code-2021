@@ -20,7 +20,7 @@ func start() -> void:
 
 func _load_input() -> void:
 	var file: File = File.new()
-	file.open("res://day_2_dive/input", File.READ)
+	file.open("res://day_2/input", File.READ)
 	var line: String = file.get_line()
 	while line != "":
 		var content: PoolStringArray = line.split(" ", false)
@@ -32,7 +32,7 @@ func _load_input() -> void:
 
 
 func _output_result() -> void:
-	print("Dive! part 2 result: %d" % result)
+	print("Day 2 Part 2 result: %d" % result)
 
 
 func _process_input() -> void:
