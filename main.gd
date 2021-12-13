@@ -7,6 +7,8 @@ var day_2_part_1 = load("res://day_2/part_1.gd").new()
 var day_2_part_2 = load("res://day_2/part_2.gd").new()
 var day_3_part_1 = load("res://day_3/part_1.gd").new()
 var day_3_part_2 = load("res://day_3/part_2.gd").new()
+var day_4_part_1 = load("res://day_4/part_1.gd").new()
+var day_4_part_2 = load("res://day_4/part_2.gd").new()
 
 
 func _ready() -> void:
@@ -18,3 +20,6 @@ func _ready() -> void:
 
 	day_3_part_1.start()
 	day_3_part_2.start()
+
+	day_4_part_1.start()
+	day_4_part_2.start()
